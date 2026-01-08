@@ -4,17 +4,12 @@ import react from 'react';
 import './style.css'
 import { Content, Footer, Header } from './func-components';
 import Calendar from './class-components';
+import Button from './class-components';
 
 
 function App() {
   return (
-    <>
-      <Header/>
-      <p><center><Calendar/></center></p>
-      <Content/>
-      <Footer/>
-    </>
+    <Button/>
   )
 }
-
 export default App;
